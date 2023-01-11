@@ -36,7 +36,7 @@ DELETE http://localhost:8080/contacts/63b87d16480b9cffa0b5156c HTTP/1.1
 
 // PRODUCTION Deploy
 ### Get all contacts
-GET https://cse341-instructor.herokuapp.com/contacts
+GET https://cse341-lesson3-8yog.onrender.com/contacts
 
 
 ### Get contact by id
