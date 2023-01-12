@@ -29,10 +29,10 @@ content-type: application/json
     "lastName":"Smith",
     "email":"jsmith@test.com",
     "favoriteColor":"red",
-    "birthday":"01/30/1980"
+    "birthday":"01/31/1980"
 }
 ### DELETE contact
-DELETE http://localhost:8080/contacts/63b87d16480b9cffa0b5156c HTTP/1.1
+DELETE http://localhost:8080/contacts/63b87d16480b9cffa0b5156d HTTP/1.1
 
 // PRODUCTION Deploy
 ### Get all contacts
@@ -49,10 +49,10 @@ content-type: application/json
 
 {
     "firstName":"Johnny",
-    "lastName":"Appleseed",
-    "email":"japple@test.com",
+    "lastName":"Appleseed #2",
+    "email":"japple2@test.com",
     "favoriteColor":"green",
-    "birthday":"04/29/1933"
+    "birthday":"04/29/1967"
 }
 
 
@@ -64,8 +64,8 @@ content-type: application/json
     "firstName":"John",
     "lastName":"Smith",
     "email":"jsmith@test.com",
-    "favoriteColor":"red",
-    "birthday":"01/30/1980"
+    "favoriteColor":"brown",
+    "birthday":"01/30/1983"
 }
 
 
